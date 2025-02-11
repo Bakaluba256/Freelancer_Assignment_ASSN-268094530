@@ -1,0 +1,38 @@
+<!-- Task 1: Login Screen -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Screen</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Main login container -->
+  <div class="login-container">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <!-- Username field -->
+      <input type="text" id="username" name="username" placeholder="Username" required>
+      <!-- Password field -->
+      <input type="password" id="password" name="password" placeholder="Password" required>
+      <!-- Remember me checkbox -->
+      <label>
+        <input type="checkbox" id="rememberMe"> Remember Me
+      </label>
+      <!-- Submit button -->
+      <button type="submit">Login</button>
+      <!-- Forgot password link -->
+      <a href="#">Forgot Password?</a>
+      <!-- Social login buttons -->
+      <div class="social-login">
+        <button class="social-btn google">Login with Google</button>
+        <button class="social-btn facebook">Login with Facebook</button>
+      </div>
+    </form>
+    <!-- Error messages display -->
+    <div id="errorMessages"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
