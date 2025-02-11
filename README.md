@@ -37,29 +37,29 @@ Features
      
 Directory Structure  
 
-freelancer-assignment/
-│
-├── task-1-login-screen/
-│   ├── index.html          # HTML file for the login screen
-│   ├── style.css           # CSS file for styling the login screen
-│   └── script.js           # JavaScript file for form validation
-│
-├── task-2-api-consumer/
-│   ├── index.html          # HTML file for the API consumer
-│   ├── style.css           # CSS file for styling the API consumer
-│   └── script.js           # JavaScript file for consuming the API
-│
-├── task-3-dynamic-form-validator/
-│   ├── index.html          # HTML file for the dynamic form validator
-│   ├── style.css           # CSS file for styling the form validator
-│   └── script.js           # JavaScript file for form validation logic
-│
-└── task-4-longest-substring/
-    ├── option 1 - Using node.js/ # Directory for the Node.js interactivity
-    |   ├── script.js           # JavaScript file for the algorithm implementation (Node.js option)
-    └── option 2 (Web-page interactivity)/ # Directory for the web-based interface
-        ├── index.html      # HTML file for the web-based interface
-        └── script.js       # JavaScript file for the web-based interface
+        freelancer-assignment/
+        │
+        ├── task-1-login-screen/
+        │   ├── index.html          # HTML file for the login screen
+        │   ├── style.css           # CSS file for styling the login screen
+        │   └── script.js           # JavaScript file for form validation
+        │
+        ├── task-2-api-consumer/
+        │   ├── index.html          # HTML file for the API consumer
+        │   ├── style.css           # CSS file for styling the API consumer
+        │   └── script.js           # JavaScript file for consuming the API
+        │
+        ├── task-3-dynamic-form-validator/
+        │   ├── index.html          # HTML file for the dynamic form validator
+        │   ├── style.css           # CSS file for styling the form validator
+        │   └── script.js           # JavaScript file for form validation logic
+        │
+        └── task-4-longest-substring/
+            ├── option 1 - Using node.js/ # Directory for the Node.js interactivity
+            |   ├── script.js           # JavaScript file for the algorithm implementation (Node.js option)
+            └── option 2 (Web-page interactivity)/ # Directory for the web-based interface
+                ├── index.html      # HTML file for the web-based interface
+                └── script.js       # JavaScript file for the web-based interface
 
 
 Instructions to Run the Project  
